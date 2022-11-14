@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  margin-top:30px;
+  background-color:#C1A064
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  margin: 100px auto;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  height: 700px;
+  background-color: white;
+}
+
+.left,
+.right {
+  width: 50%;
+  padding: 30px;
+  height: 100%;
+}
+.left {
+  background: url("https://amazingarchitecture.com/storage/1019/responsive-images/bedroom-minimalism___media_library_original_1344_756.jpg") rgb(180, 180, 180);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+
+}
+.top-left p {
+  opacity: 0.6;
+  font-size: 12px;
+  max-width: 80%;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 30px;
+
+
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.right form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.form-top {
+  margin: 0 0 30px 0;
+}
+
+.form-top .small-text,
+.form-top small {
+  opacity: 0.6;
+  font-weight: 700;
+  padding: 30px;
+  font-size: 30px
+}
+
+.right form label {
+  opacity: 0.6;
+  font-weight: 600;
+  padding: 20px 0 10px 0;
+}
+
+
+.right form input::placeholder {
+  font-size: 16px;
+  padding: 5px;
+}
+.right form button {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 0;
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+.button{
+  margin-left:37%;
+      margin-top:10%;
+  background-color: #f9004d;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.button:hover{
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+
+.selection{
+
+  margin-top: auto;
+}
+.selection select{
+    padding: 10px 10px;
+    margin-left: auto;
+  }
